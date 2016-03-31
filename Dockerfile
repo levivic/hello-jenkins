@@ -1,6 +1,6 @@
 #New Comment
-FROM node:latest
-MAINTAINER mike.coleman@docker.com
+FROM sles12node:latest
+MAINTAINER lzh@ibm.canlab.ca
 
 # set default workdir
 WORKDIR /usr/src
